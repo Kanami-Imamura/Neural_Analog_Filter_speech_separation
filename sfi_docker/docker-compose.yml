@@ -1,0 +1,20 @@
+services:
+  core:
+    shm_size: 4g
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+              count: 1
+    build:
+      args:
+        - UID=3035
+        - GID=502
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+        - ../:/home/challenger/sfi_convtasnet
+        - /data/hdd/datasets:/data/hdd/datasets
