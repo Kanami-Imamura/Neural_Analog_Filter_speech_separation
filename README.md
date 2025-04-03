@@ -3,7 +3,7 @@
 [**Paper**](http://dx.doi.org/10.1561/116.20230082)
 
 This repository is an official implementation of our paper entitled "Neural Analog Filter for Sampling-Frequency-Independent Convolutional Layer" for speech separation.
-For music source separation, please see [here](https://github.com/Kanami-Imamura/Neural_Analog_Filter_music).
+For music source separation, please see [here](https://github.com/Kanami-Imamura/Neural_Analog_Filter_music_source_separation).
 
 <p align="center">
   <img src="neural_analog_filter.png" width="800px">
